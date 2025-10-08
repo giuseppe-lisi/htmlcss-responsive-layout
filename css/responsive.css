@@ -64,12 +64,17 @@
 
     .recipe-card {
         display: flex;
-        justify-content: space-between;
     }    
 
+    /* maledetta thumbnail di youtube non la smetteva
+    di overfloware */
     .recipe-video {
         width: 70%;
         height: inherit;
+
+        & iframe {
+            aspect-ratio: 16 / 9;
+        }
     }
 
     .recipe-info {
