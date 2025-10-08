@@ -1,0 +1,78 @@
+/* Large Mobile Breakpoint */
+
+@media screen and (min-width: 580px) and (max-width: 769px) {
+    
+}
+
+/* Tablet Breakpoint */
+
+@media screen and (min-width: 770px) {
+    main {
+        padding: 40px;
+    }
+    
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    .recipe-origin {
+        display: initial;
+    }
+
+    .recipe-name {
+        font-size: 2em;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        & li { 
+            width: calc((100% / 3) - 20px * (3 / 4));
+        }
+    }
+
+    .social-networks button {
+        width: 20%;
+    }
+
+    .ads {
+        display: initial;
+    }
+
+    .clearfix img {
+        float: left;
+        margin-right: 10px;
+    }
+}
+
+/* Desktop Breakpoint */
+
+@media screen and (min-width: 990px) {
+    .recipe-name {
+        font-size: 3em;
+    }
+
+    .quick-notes ul {
+        display: initial;
+        
+        & li {
+            width: initial;
+        }
+    }
+
+    .recipe-card {
+        display: flex;
+        justify-content: space-between;
+    }    
+
+    .recipe-video {
+        width: 70%;
+        height: inherit;
+    }
+
+    .recipe-info {
+        width: 30%;
+    }
+}
