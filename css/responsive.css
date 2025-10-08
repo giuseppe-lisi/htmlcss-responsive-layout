@@ -5,6 +5,10 @@
         float: left;
         margin-right: 10px;
     }
+
+    .social-networks button {
+        width: 20%;
+    }
 }
 
 /* Tablet Breakpoint */
