@@ -1,6 +1,6 @@
 /* Large Mobile Breakpoint */
 
-@media screen and (min-width: 580px) and (max-width: 769px) {
+@media screen and (min-width: 580px) {
     .clearfix img {
         float: left;
         margin-right: 10px;
@@ -40,21 +40,12 @@
         }
     }
 
-    .social-networks button {
-        width: 20%;
-    }
-
     .ads {
         display: initial;
     }
 
     .ads img {
             margin-top: 20px;
-    }
-
-    .clearfix img {
-        float: left;
-        margin-right: 10px;
     }
 }
 
