@@ -1,7 +1,10 @@
 /* Large Mobile Breakpoint */
 
 @media screen and (min-width: 580px) and (max-width: 769px) {
-    
+    .clearfix img {
+        float: left;
+        margin-right: 10px;
+    }
 }
 
 /* Tablet Breakpoint */
@@ -41,6 +44,10 @@
         display: initial;
     }
 
+    .ads img {
+            margin-top: 20px;
+    }
+
     .clearfix img {
         float: left;
         margin-right: 10px;
@@ -71,13 +78,26 @@
     .recipe-video {
         width: 70%;
         height: inherit;
+    }
 
-        & iframe {
+    iframe {
             aspect-ratio: 16 / 9;
-        }
     }
 
     .recipe-info {
         width: 30%;
+    }
+
+    .social-networks .label {
+        display: initial;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer address {
+        text-align: left;
     }
 }
